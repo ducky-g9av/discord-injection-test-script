@@ -1,20 +1,4 @@
-/**
- * send_hello_webhook.js
- *
- * Safe, standalone script that posts "hello world" to a Discord webhook.
- * This is NOT a modification of any malware — it is a simple HTTP POST.
- *
- * Replace %WEBHOOK% with your webhook URL when you actually run it,
- * or pass the webhook URL as the first command-line argument.
- *
- * Usage:
- *   node send_hello_webhook.js
- *   node send_hello_webhook.js https://discord.com/api/webhooks/ID/TOKEN
- *
- * Notes:
- *  - Keeps the placeholder %WEBHOOK% in the source as requested.
- *  - No data collection, no Discord internals, no persistence.
- */
+
 
 const https = require('https');
 const { URL } = require('url');
